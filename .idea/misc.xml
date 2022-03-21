@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GKAndroid/DoTrungNgoc/app/src/main/res/drawable-v24/border.xml" value="0.2203125" />
         <entry key="..\:/GKAndroid/DoTrungNgoc/app/src/main/res/drawable/background_radient.xml" value="0.19375" />
         <entry key="..\:/GKAndroid/DoTrungNgoc/app/src/main/res/drawable/border_btn_get.xml" value="0.2203125" />
+        <entry key="..\:/GKAndroid/DoTrungNgoc/app/src/main/res/layout/activity_home_main.xml" value="0.22" />
         <entry key="..\:/GKAndroid/DoTrungNgoc/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/GKAndroid/DoTrungNgoc/app/src/main/res/layout/item_layout.xml" value="0.22" />
       </map>
     </option>
   </component>
