@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DoTrungNgoc">
         <activity
+            android:name=".ItemDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeMainActivity"
             android:exported="false" />
         <activity

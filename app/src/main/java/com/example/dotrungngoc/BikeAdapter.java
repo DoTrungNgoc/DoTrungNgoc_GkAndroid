@@ -1,6 +1,7 @@
 package com.example.dotrungngoc;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -56,6 +57,15 @@ public class BikeAdapter extends BaseAdapter {
             priceNew.setText(bike.getPriceNew());
             img.setImageResource(bike.getImg());
         }
+
+        convertView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context,ItemDetailActivity.class);
+                intent.putExtra("bike",bike);
+                context.startActivity(intent);
+            }
+        });
 
         return convertView;
     }
